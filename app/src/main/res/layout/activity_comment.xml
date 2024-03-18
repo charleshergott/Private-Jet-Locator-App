@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="5dp"
+    android:background="@color/colorBg"
+    tools:context=".CommentActivity">
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/constraint_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:paddingHorizontal="5dp"-->
+<!--        android:background="@color/colorBg"-->
+<!--        >-->
+
+<!--        &lt;!&ndash;        <Button&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/addaTime"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="Add Time"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:background="@drawable/bg_rounded_orange"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintTop_toTopOf="parent"/>&ndash;&gt;-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvDate"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:gravity="center"-->
+<!--            android:text=""-->
+<!--            android:visibility="gone"-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:drawableStartCompat="@drawable/ic_time_24"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvTitle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:gravity="center"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="24sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvDate"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
+<!--        <androidx.constraintlayout.widget.Guideline-->
+<!--            android:id="@+id/verticle_guideline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintGuide_percent="0.5"-->
+<!--            android:orientation="vertical"/>-->
+<!--        <androidx.constraintlayout.widget.Guideline-->
+<!--            android:id="@+id/horizontal_guideline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintGuide_percent="0.5"/>-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cvProfilePic"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="180dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:elevation="1dp"-->
+<!--            app:cardCornerRadius="5dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/horizontal_guideline"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvTitle"-->
+<!--            app:layout_constraintHeight_percent="0.45">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgPhoto"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/ic_image_placeholder" />-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDescription"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvTitle" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvFindOnMap"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text="Find location on map"-->
+<!--            android:textColor="@color/colorWhite"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:background="@drawable/bg_rounded_orange"-->
+<!--            android:paddingVertical="@dimen/_3sdp"-->
+<!--            android:paddingHorizontal="@dimen/_16sdp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvComments" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvComments"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvEndDate" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDepartureDate"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvDescription" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDepartureTime"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvDepartureDate" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvSeats"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvDepartureTime" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvPrice"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvSeats" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDestination"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvPrice" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvEndDate"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/text_color_title"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvDestination" />-->
+<!--        <Button-->
+<!--            android:id="@+id/tvCallUsOn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10dp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:fontFamily="@font/ubuntu_regular"-->
+<!--            android:text="Book"-->
+<!--            android:visibility="gone"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:background="@drawable/bg_rounded_orange"-->
+<!--            android:textColor="@color/colorWhite"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/verticle_guideline"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvFindOnMap" />-->
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:id="@+id/layout"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/verticle_guideline"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/cvProfilePic">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/tvSubscribe"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:src="@drawable/ic_outline_favorite_border_24"-->
+<!--                android:drawableTint="@color/colorWhite"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:visibility="gone"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/ivEdit"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:src="@drawable/ic_edit_24"-->
+<!--                android:visibility="gone"-->
+<!--                app:layout_constraintStart_toEndOf="@id/commenting_btn"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/ivDelete"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:src="@drawable/ic_delete_24"-->
+<!--                android:visibility="gone"-->
+<!--                app:layout_constraintStart_toEndOf="@id/ivEdit"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:id="@+id/ivReport"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:src="@drawable/ic_report"-->
+<!--                android:visibility="gone"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/share_btn"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:drawablePadding="@dimen/_5sdp"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--                android:src="@drawable/ic_outline_share_24"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@id/commenting_btn"/>-->
+<!--            <ImageView-->
+<!--                android:id="@+id/commenting_btn"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:drawablePadding="@dimen/_5sdp"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:src="@drawable/ic_baseline_comment_24"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@id/tvSubscribe"/>-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--        <FrameLayout-->
+<!--            android:id="@+id/container_view_test"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvCallUsOn"/>-->
+<!--        &lt;!&ndash;                <androidx.fragment.app.FragmentContainerView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/fragment_container_comments"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:name="app.blinkshare.android.CommentsFragment"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@id/tvCallUsOn"/>&ndash;&gt;-->
+
+
+
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+    <!--    <FrameLayout-->
+<!--        android:id="@+id/container_view_test"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

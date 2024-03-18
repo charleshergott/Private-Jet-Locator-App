@@ -1,0 +1,6 @@
+ release {
+            //storeFile file('./snappbuy3.keystore')
+            storePassword "vasilkoff100"
+            keyAlias "snappbuy3"
+            keyPassword "vasilkoff100"
+        }

@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Private Jet Locator</string>
+    <string name="fb_login_protocol_scheme">fb904137196716134</string>
+    <string name="default_notification_channel_id">367136dasdsad12y39126391237912</string>
+
+    <string name="google_maps_api_key" translatable="false">AIzaSyA9YvGJNu6_pmYbxPQchTgQKuOOvA95ixk</string>
+
+    <!--Login Screen-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="title_forgot_password">FORGOT PASSWORD</string>
+    <string name="title_login_or_create_account_using">Login or create account using</string>
+    <string name="title_login_btn">LOGIN</string>
+    <string name="title_visit_as_guest_btn">VISIT AS GUEST</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_dont_have_account">Don\'t have an account yet?</string>
+    <string name="title_create_account">CREATE ONE NOW</string>
+
+    <!--SignUp Screen-->
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="title_create_account_btn">CREATE ACCOUNT</string>
+    <string name="title_already_have_account">Already have an account?</string>
+    <string name="title_login_now">LOGIN</string>
+
+    <!--Forgot Password Screen-->
+    <string name="screen_title_forgot_password">Forgot password</string>
+    <string name="title_send_btn">SEND</string>
+    <string name="title_instructions">Enter the e-mail address linked to your address below. We will send you an e-mail to reset your password.</string>
+
+    <!--SignUp details Screen-->
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_username">Username</string>
+    <string name="title_btn_continue">CONTINUE</string>
+    <string name="title_privacy_policy">PRIVACY POLICY</string>
+    <string name="title_terms_conditions">TERMS AND CONDITIONS</string>
+
+    <!--SignUp more details Screen-->
+    <string name="btn_title_tags">Tags</string>
+    <string name="title_instructions2">What are you interested in today? Right down as many tag words as you want, they can be modified later in your settings</string>
+    <string name="hint_preferred_currency">Preferred Currency</string>
+    <string name="hint_age">Age</string>
+    <string name="title_fill_following_instructions">Please fill the following</string>
+    <string name="title_welcome_to">Welcome to BlinkShare</string>
+    <string name="title_instructions3">Tags are important: as soon as some posts an item with one of your tags, you will receive an immediate notification</string>
+
+    <!--Select Tags Screen-->
+    <string name="title_tags">Has someone shared their username hashtag with you? You can enter it here or any subject you’re interested in. You can also skip this step for now and Finalize Registration.</string>
+    <string name="hint_add_tags">Add #tags</string>
+    <string name="title_btn_done_tags">Done</string>
+
+    <!--Select Module Screen-->
+    <string name="title_select_module">What do you want to do now?</string>
+    <string name="title_btn_browse">BROWSE</string>
+    <string name="title_btn_post">POST</string>
+    <string name="title_btn_go_to_settings">GO TO SETTINGS</string>
+    <string name="title_btn_skip">SKIP</string>
+
+    <!--User Account screen-->
+    <string name="title_account_settings">Account settings</string>
+    <string name="title_my_products">My pictures</string>
+    <string name="title_settings_faq">FAQ</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_instagram">Follow us on <b>Instagram</b></string>
+    <string name="title_share_with_friends">Share with friends</string>
+    <string name="title_text_privacy_policy">Privacy Policy</string>
+    <string name="title_text_terms_conditions">Terms and Conditions</string>
+    <string name="btn_title_logout">LOG OUT</string>
+
+    <!--Account Settings screen-->
+    <string name="btn_title_save_account_settings">SAVE</string>
+
+    <!--My Products Screen-->
+    <string name="screen_title_my_products">My pictures</string>
+    <string name="btn_title_goods">Goods</string>
+    <string name="btn_title_chats">Chats</string>
+
+    <!--Trending Screen-->
+    <string name="screen_title_trending">Trending now</string>
+
+    <!--Add Product Screen-->
+    <string name="input_hint_currency">Currency</string>
+    <string name="input_hint_comments">Comments</string>
+    <string name="input_hint_price">Price</string>
+    <string name="btn_title_blinkshare">BLINKSHARE</string>
+    <string name="btn_title_upload_picture">Upload to Map</string>
+    <string name="input_custom_latitude">Custom latitude</string>
+    <string name="input_custom_longitude">Custom longitide</string>
+    <string name="input_custom_address">Custom address</string>
+
+    <!--Categories Screen-->
+    <string name="screen_title__select_category">Select Category</string>
+    <string name="title_next_btn">Next</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="on_boarding_1">Welcome to your Private Jet Locator app. Thank you for trying out this innovative app, the first ever map where the information is not centrally moderated and always up-to-date. Your current position is the BLUE dot.</string>
+    <string name="on_boarding_2">Transparent aircraft icons are EMPTY LEGS; full aircraft icons are regular charters; parked aircraft are indicated by the letter “P”.</string>
+    <string name="on_boarding_3">Empty Legs can get cancelled or modified to adapt to the main customer’s schedule or requirements so we’ve decided to post them not more than 48 hours in advance to mitigate this risk. After 24 hours, the timer is reset for another 24 hours. On the day of the flight, the aircraft disappears from the map.</string>
+    <string name="on_boarding_4">Parked Aircraft remain on the map for as long as they are parked: the end date is set by the operator.</string>
+    <string name="on_boarding_5">Click on any icon to discover when and where the aircraft is set to go. Parked aircraft are “just sitting there” so you can interact with the operator to find out if that particular aircraft can go in another direction than the one suggested on the post.</string>
+    <string name="on_boarding_6">Posts are designed to be interactive: click on the HEART icon to follow a particular flight. Following a flight means you’ll receive updates on that flight.</string>
+    <string name="on_boarding_7">Click on the BUBBLE icon to ask questions, post comments or suggestions and even propose to share the flight. When you leave a message on the flight’s post, the icon of that flight starts blinking so other users know it’s a “hot” flight.</string>
+    <string name="on_boarding_8">Click on the SHARE icon to send the information on the flight to your friends.</string>
+    <string name="on_boarding_9">By clicking on BOOK, you automatically send us  a WhatsApp message: booking or inquiring has never been easier. ENJOY!</string>
+    <string name="homes">Homes</string>
+    <string name="flights">Flights</string>
+    <string name="schedule">Scheduled</string>
+    <string name="parked">Parked</string>
+    <string name="my_pictures">My Pictures</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="faq">FAQ</string>
+
+    <string name="comment_description">Do you want to suggest another price? Do you want to share this flight with other users? Use this box to leave your suggestions/comments.</string>
+    <string name="guest_mode_info">You have entered Guest Mode; in order to access all the Social Network Features, you must create an account.</string>
+
+    <string name="maintanence_message">We\'ve started a crowdfunding campaign to bring new functionalities to this app. A $10 support would go a long way. More information here: </string>
+    <string name="maintanence_title">WE NEED YOUR SUPPORT</string>
+    <string name="new_point_text">Sustainable Aviation Fuel (SAF) is a “drop-in” fuel that meets all the same technical and safety requirements as fossil-based jet fuel. SAF contains the same hydrocarbons (and thus the same tailpipe emissions) as fossil-based kerosene, but the difference is that the hydrocarbons came from a more sustainable source. This results in a net reduction of emissions when comparing to fossil jet fuel on a life cycle basis.</string>
+</resources>
